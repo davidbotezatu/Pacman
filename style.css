@@ -1,0 +1,89 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    background-color: black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.dot {
+    background-color: green;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.wall {
+    background-color: darkblue;
+}
+
+.powerup {
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.pacman {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: yellow;
+    z-index: 2;
+}
+
+.portal {
+    background: darkred;
+}
+
+.blinky {
+    background-color: red;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.pinky {
+    background-color: pink;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.inky {
+    background-color: cyan;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.clyde {
+    background-color: orange;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.vulnerable-ghost {
+    background-color: fuchsia;
+    border-radius: 10px;
+    border: 0px;
+}
